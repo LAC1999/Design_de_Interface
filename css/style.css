@@ -1,0 +1,33 @@
+/* Main color for titles and subtitles */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;  /* Dark blue-gray color for titles */
+}
+
+/* Secondary color for paragraphs, labels, lists, and tables */
+p, label, li, table, table * {
+    color: #34495e;  /* Slightly lighter blue-gray for text */
+}
+
+/* Third color for specific elements */
+/* Highlight second menu item (CSS3) */
+nav ul li:nth-child(3) a {
+    color: #e67e22;  /* Orange color for second menu item */
+}
+
+/* Alternate row color in table - highlighting the second row */
+tbody tr:nth-child(2) {
+    background-color: transparent;
+}
+tbody tr:nth-child(2) td {
+    color: #e67e22;  /* Orange color for second row text */
+}
+
+/* Half of the form labels - highlighting specific labels */
+form fieldset label:nth-child(1),  /* Name label */
+form fieldset label:nth-child(3),  /* Email label */
+form fieldset label:nth-child(5),  /* Phone label */
+form fieldset label:nth-child(7),  /* Birthdate label */
+form fieldset label:nth-child(9) { /* Experience label */
+    color: #e67e22;  /* Orange color for selected labels */
+    font-weight: bold;
+}

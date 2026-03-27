@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Fundamentals - Learn HTML, CSS, JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development Fundamentals</h1>
+        <p>Learn the essential building blocks of modern web development. This course covers HTML5, CSS3, and JavaScript - the core technologies that power the web. Whether you're a beginner or looking to refresh your skills, you'll find valuable resources here to start your journey in web development.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">HTML5</a></li>
+            <li><a href="#">CSS3</a></li>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">Frameworks</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Why Learn Web Development?</h2>
+            <p>Web development is one of the most in-demand skills in today's digital economy. With the continuous growth of the internet, businesses and organizations constantly need skilled developers to create and maintain their online presence. Learning web development opens doors to numerous career opportunities and allows you to bring your creative ideas to life.</p>
+            
+            <h2>Core Technologies</h2>
+            <p>Modern web development relies on three core technologies that work together to create interactive and engaging websites:</p>
+            
+            <ul>
+                <li><strong>HTML5</strong> - Provides the structure and content of web pages</li>
+                <li><strong>CSS3</strong> - Handles the presentation and visual styling</li>
+                <li><strong>JavaScript</strong> - Adds interactivity and dynamic functionality</li>
+            </ul>
+
+            <h2>Web Development Comparison</h2>
+            <p>Here's a comparison of different web development approaches:</p>
+            
+            <table>
+                <caption>Front-end vs Back-end Development</caption>
+                <thead>
+                    <tr>
+                        <th>Aspect</th>
+                        <th>Front-end</th>
+                        <th>Back-end</th>
+                        <th>Full-stack</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Focus</td>
+                        <td>User Interface</td>
+                        <td>Server-side Logic</td>
+                        <td>Both Front and Back</td>
+                    </tr>
+                    <tr>
+                        <td>Technologies</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>Python, PHP, Node.js</td>
+                        <td>All of the above</td>
+                    </tr>
+                    <tr>
+                        <td>Responsibilities</td>
+                        <td>Design, Layout, Interactivity</td>
+                        <td>Databases, APIs, Security</td>
+                        <td>Complete Application</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">* Full-stack developers combine both front-end and back-end skills</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Learning Resources</h2>
+            
+            <div class="images-container">
+                <figure>
+                    <img src="img/html-css-js.png" alt="HTML, CSS and JavaScript logos representing web development technologies" width="300" height="200">
+                    <figcaption>The three core technologies of web development</figcaption>
+                </figure>
+                
+                <figure>
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">
+                        <img src="img/web-dev.jpg" alt="Web development learning resources and documentation" width="300" height="200">
+                    </a>
+                    <figcaption>Click the image to access MDN Web Docs - Free learning resource</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Introduction to Web Development</h2>
+            <p>Watch this video to get started with web development fundamentals:</p>
+            
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/5p8e2ZkbOFU" 
+                title="Web Development Tutorial for Beginners" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Contact Form - Get Started with Web Development</h2>
+            <p>Fill out the form below to receive more information about our web development resources:</p>
+            
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Student Information</legend>
+                    
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                    
+                    <label for="birthdate">Date of Birth:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+                    
+                    <label for="experience">Programming Experience Level:</label>
+                    <select id="experience" name="experience">
+                        <option value="beginner">Beginner - No experience</option>
+                        <option value="some">Some experience - Basic knowledge</option>
+                        <option value="intermediate">Intermediate - Comfortable with basics</option>
+                        <option value="advanced">Advanced - Building projects</option>
+                    </select>
+                    
+                    <label for="interest">Primary Interest:</label>
+                    <select id="interest" name="interest">
+                        <option value="frontend">Front-end Development</option>
+                        <option value="backend">Back-end Development</option>
+                        <option value="fullstack">Full-stack Development</option>
+                    </select>
+                    
+                    <label for="comments">Additional Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Tell us about your goals and interests..."></textarea>
+                    
+                    <label>Preferred Learning Format:</label>
+                    <input type="checkbox" id="video" name="format" value="video">
+                    <label for="video">Video tutorials</label>
+                    <input type="checkbox" id="text" name="format" value="text">
+                    <label for="text">Text-based lessons</label>
+                    <input type="checkbox" id="interactive" name="format" value="interactive">
+                    <label for="interactive">Interactive exercises</label>
+                    
+                    <label>Subscribe to Newsletter:</label>
+                    <input type="radio" id="yes" name="newsletter" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="newsletter" value="no">
+                    <label for="no">No</label>
+                    
+                    <input type="submit" value="Submit Application">
+                    <input type="reset" value="Clear Form">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by: João Silva - Web Development Student</p>
+        <p>Course: Web Interface Design - 2026</p>
+        <p>This educational website was created as a project to demonstrate HTML5, CSS3, and semantic markup best practices.</p>
+        <p>All content is for educational purposes only.</p>
+    </footer>
+</body>
+</html>
